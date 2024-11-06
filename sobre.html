@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Portfólio Arthur Almeida</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" width="100" height="100" alt="">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato" id="botao-ctt-1">
+                <a href="https://www.linkedin.com/in/arthurvalmeida/">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <!-- Menu Mobile -->
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="https://www.linkedin.com/in/arthurvalmeida/">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Overlay para escurecer o fundo quando o menu estiver aberto -->
+            <div class="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="foto.png" alt="" width="400" height="450">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU ARTHUR ALMEIDA.</span></h2>
+                        <p>Engenheiro de dados e Analista de Business Intelligence com experiência em manutenção de bancos de dados relacional e não relacional, Python, Arquitetura de ETL, SQL, CLOUD, pipelines, tarefas do Oracle Data Integrator (ODI), ferramentas de visualização de dados, modelagem de dados, entre outras. </p>
+                        <p>Iniciei no mercado como Desenvolvedor web full stack na JobSpace Creative, criando front-end e back-end com Vtex para e-commerce, tendo como principais clientes Grupo Britânia e Philco. Em seguida fui convidado para trabalhar como Engenheiro de Dados na Energisa SA, atuando em projetos nacionais para soluções de energia sustentável e atendimento ao cliente.</p>
+                        <p>Tendo experiência com as ferramentas: Python (Django, NumPy, Pandas),  AWS (S3, EC2, Redshift, Glue, Athena, Kinesis),  Databricks,  Excel (Avançado),  Dbt,  SnowFlake,  SQL (Oracle Developer, MySQL, Microsoft SQL Server, PostgreSQL),  NoSQL (MongoDB),  Oracle Integrator Data,  Apache Airflow,  Apache Spark (PySpark),  Apache Kafka,  Power BI, GitHub, Linux, Modelagem de dados (Power Designer, BrModelo). </p>
+                        <div class="btn-social">
+                            <a href="https://github.com/ArthurrAlmeida"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/arthurvalmeida/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="experiencias">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>EXPERIÊNCIAS</span></h2>
+                <div class="flex">
+
+                    <div class="especialidades-box">
+                        <h3>LIGA DIGITAL</h3>
+                        <h4>Programador Inteligência Artificial | 04/2024 – 07/2024 </h4> <br>
+                        <p>Criar inteligências artificiais especificas para a necessidade do cliente. 
+                            Projeto Secretaria Digital: Uma secretária feita em inteligência artificial que atende a 
+                            agências e clínicas, com o objetivo de gerir os clientes, marcando, desmarcando, 
+                            remarcando, explicando procedimentos, produtos por texto e áudio, com clientes na 
+                            América e Europa. </p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <h3>ENERGISA SA</h3>
+                        <h4>Estágio Engenhearia de Dados | 08/2022 - 08/2023</h4> <br>
+                        <p>Engenheiro de Dados, com responsabilidades em manter os bancos de dados Oracle e 
+                            SQL Server organizados e objetivos, Data WareHouses com bom desempenho e sem 
+                            estourar cargas, tarefas do Oracle Integrator Data (ODI) onde foram feitos ETLs bem 
+                            estruturados e carregando no menor tempo possível, pipelinas e scenarios bem 
+                            orquestradas e fáceis de serem lidas, modelagem de dados didáticas e de entendimento 
+                            simples, ajustes de relatórios no Power BI, com apoio e supervisão de engenheiros 
+                            seniores e especialistas, tendo como principais projetos: <br>
+                            <strong>Atendimento</strong>, responsável pelos dados de clientes, onde foram realizados processos 
+                            para diminuir o tempo de execução das pipelines, criar novos relatórios e corrigir erros 
+                            de execução. <br>
+                            <strong>DBM</strong>, tendo objetivo de recuperar e integrar dados de clientes de todas as fontes em 
+                            um único sistema, realizando processos para reduzir o tempo de execução das 
+                            pipelines e corrigir erros no Oracle Integrator Data. <br>
+                            <strong>Faturamento</strong>, responsável por armazenar dados financeiros de toda a empresa, onde 
+                            realizei a correção de pipelines no Oracle Integrator Data e criei novos scenarios para 
+                            visualização de novos indicadores. <br>
+                            <strong>ADMIN</strong>, responsável pela administração de produtos de iluminação urbana, onde 
+                            atualizei bancos de dados que continham todas as informações sobre iluminação 
+                            elétrica urbana. <br>
+                            <strong>Mercado</strong>, informar sobre produtos da Energisa, onde fui responsável por todo o projeto. 
+                            Tinha como objetivo mapear a energia solar em todo o Brasil, abrangendo geradores e 
+                            consumidores. Realizei o projeto do zero, desde as queries SQL, modelagem de dados, 
+                            criação dos bancos, pipelines e scenarios do Oracle Integrator Data, assim como 
+                            schedulings.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <h3>JOBSPACE CREATIVE</h3>
+                        <h4>Estágio em Desenvolvimento Full Stack | 02/2022 – 07/2022</h4> <br>
+                        <p>Desenvolvedor Web Full Stack, encarregado de manter a operação de sites, 
+                            manutenção e desenvolvimento de sites e lannings pages, utilizando as ferramentas 
+                            de desenvolvimento HTML, CSS, JavaScript e Vtex sendo principais projetos. <br> 
+                            <strong></strong> participei de manutenções no site, utilizando HTML, CSS e 
+                            JavaScript, com Vtex de backend. <br>
+                            <strong>Narcel e Narcel Chefs</strong>, desenvolvimento do site utilizando HTML, CSS e JavaScript, 
+                            com Vtex de backend. <br>
+                            <strong>Farmácia miligrama</strong>, manutenção no site e criação de Lanning Pages com HTML e 
+                            CSS. Desenvolvedor Web Full Stack, encarregado de manter a operação de sites, 
+                            manutenção e desenvolvimento de sites e lannings pages, utilizando as ferramentas 
+                            de desenvolvimento HTML, CSS, JavaScript e Vtex sendo principais projetos:  
+                            Britania e Philco: participei de manutenções no site, utilizando HTML, CSS e 
+                            JavaScript, com Vtex de backend. <br></p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="logo.png" width="100" height="100" alt="">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://github.com/ArthurrAlmeida"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/arthurvalmeida/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:devarthuralmeida@gmail.com">devarthuralmeida@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const btnAbrirMenu = document.querySelector(".btn-abrir-menu");
+            const menuMobile = document.querySelector("#menu-mobile");
+            const btnFecharMenu = menuMobile.querySelector(".btn-fechar");
+            const overlayMenu = document.querySelector(".overlay-menu");
+    
+            // Função para abrir o menu
+            btnAbrirMenu.addEventListener("click", function() {
+                menuMobile.classList.add("abrir-menu");
+                overlayMenu.style.display = "block";
+            });
+    
+            // Função para fechar o menu
+            btnFecharMenu.addEventListener("click", function() {
+                menuMobile.classList.remove("abrir-menu");
+                overlayMenu.style.display = "none";
+            });
+    
+            // Também fecha o menu ao clicar na overlay
+            overlayMenu.addEventListener("click", function() {
+                menuMobile.classList.remove("abrir-menu");
+                overlayMenu.style.display = "none";
+            });
+        });
+    </script>
+
+</body>
+</html>
